@@ -1,0 +1,10 @@
+submit sagong.sun@gmail.com def codeBits(table: CodeTable)(char: Char): List[Bit] = table match {
+    case (character,list)::tail => 
+      if(character == char) list
+      else codeBits(tail) (char)
+    case _ => Nil
+  }
+submit sagong.sun@gmail.com srhlCa0xJfBEyi8N
+cd ../
+ls
+exit
